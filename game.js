@@ -106,7 +106,7 @@ const textNodes = [
               }
         ]
       },
-
+      
       {
         id: 5,
         text: 'You look around and to your right you see what appears to be a trail under the fallen leaves. You eventually reach an old seemingly abandoned house in the woods.',
@@ -137,62 +137,228 @@ const textNodes = [
       },
       {
         id: 7,
-        text: 'test',
+        text: 'You awake from your nap and find that you have been abandoned by Cornelius Pudge (The Deserter)',
         options: [
           {
-            text: 'test',
-            nextText: 7
-          }
+            text: 'Express your sorrow outwardly and feel the deeppain of losing your only friend, blow your nose on a nearby leaf.',
+            requiredState: (currentState) => currentState.chipmunk,
+            setState: {chipmunk: false},
+            nextText: 5
+          },
+          {
+            text: 'Cry? I am no bebe.',
+            requiredState: (currentState) => currentState.chipmunk,
+            setState: {chipmunk: false},
+            nextText: 13
+          },
         ]
       },
       {
         id: 8,
-        text: 'test',
+        text: 'You wake up many hours later in desperate need of sustenence',
         options: [
           {
-            text: 'test',
-            nextText: 7
+            text: 'Head out now before you get hangry',
+            requiredState: (currentState) => currentState.chipmunk,
+            nextText: 14
+          },
+          {
+            text: 'Wait until first light',
+            requiredState: (currentState) => currentState.chipmunk,
+            nextText: 15
           }
         ]
       },
       {
         id: 9,
-        text: 'test',
+        text: 'You reach a bridge covered in a thick fog, it sounds like there is a city on the other side although you are unsure how far away or how safe the bridge is. ',
         options: [
           {
-            text: 'test',
-            nextText: 7
+            text: 'Check under the bridge to see if you can cross easily',
+            requiredState: (currentState) => currentState.chipmunk,
+            nextText: 16
+          },
+          {
+            text: 'hero journey means we cross that bridge boy',
+            requiredState: (currentState) => currentState.chipmunk,
+            nextText: 17
           }
         ]
       },
       {
         id: 10,
-        text: 'test',
+        text: 'You venture around back and look around. The back door appears to be slightly ajar and there is a mysterious path surrounded by massive hedges',
         options: [
           {
-            text: 'test',
-            nextText: 7
+            text: 'Explore the mysterious path',
+            nextText: 18
+          },
+          {
+            text: 'Enter in to the house through the back door.',
+            nextText: 19
+          },
+          {
+            text: 'Leave',
+            nextText: 20
           }
         ]
       },
       {
         id: 11,
-        text: 'test',
+        text: 'There is no answer at the door and it appears as if there is no one inside.',
         options: [
           {
-            text: 'test',
-            nextText: 7
+            text: 'Knock again',
+            nextText: 21
+          },
+          {
+            text: 'Check if the door is unlocked',
+            nextText: 22
+          },
+          {
+            text: 'Explore around back',
+            nextText: 10
+          },
+          {
+            text: 'Leave',
+            nextText: 20
           }
         ]
       },
       {
         id: 12,
-        text: 'test',
+        text: 'Once inside, you look around, you are surrounded by books and books and books... A library!',
         options: [
           {
-            text: 'test',
-            nextText: 7
+            text: 'Pick up the closest book',
+            nextText: 23
+          },
+          {
+            text: 'Pick up the thickest book',
+            nextText: 24
+          },
+          {
+            text: 'Pick up the oldest book',
+            nextText: 25
+          },
+          {
+            text: 'Leave Room',
+            nextText: 26
+          },
+        ]
+      },
+      {
+        id: 13,
+        text: 'Due to your refusal to feel your pain, you drown internally due to an abnormal amount of saltwater',
+        options: [
+            {
+              text: 'Restart',
+              nextText: -1
+            }
+          ]
+      },
+      {
+        id: 14,
+        text: 'You realize you could easily build a fire with surrounding brush if you could locate an animal nearby... or a bush with berries',
+        options: [
+          {
+            text: 'you gonna set fire to that third bar huh',
+            nextText: 27
+          },
+          {
+            text: 'berries and CREAM',
+            nextText: 28
           }
+        ]
+      },
+      {
+        id: 15,
+        text: 'You have starved to death. Corny Pudgepants feasts on your remains for several months until eventually perishing as well due to obesity and lack of mobility.',
+        options: [
+          {
+              text: 'Restart',
+              nextText: -1
+            }
+        ]
+      },
+      { 
+        id: 16,
+        text: 'under bridge',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 17,
+        text: 'bridge',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 18,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 19,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 20,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 21,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 22,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
+        ]
+      },
+      { 
+        id: 23,
+        text: '',
+        options: [
+            {
+                text: '',
+                nextText: 1
+            }
         ]
       },
 ]
