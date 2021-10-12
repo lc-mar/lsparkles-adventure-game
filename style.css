@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: montserrat semibold;
+ }
+ 
+ body {
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vw;
+     background-color: #2a5743;
+ }
+ 
+ .container {
+     width: 800px;
+ } 
