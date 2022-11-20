@@ -241,19 +241,19 @@ const textNodes = [
     options: [
       {
         text: 'Pick up the closest book',
-        nextText: 23
+        nextText: 22
       },
       {
         text: 'Pick up the thickest book',
-        nextText: 24
+        nextText: 23
       },
       {
         text: 'Pick up the oldest book',
-        nextText: 25
+        nextText: 24
       },
       {
         text: 'Leave Room',
-        nextText: 26
+        nextText: 25
       },
     ]
   },
@@ -273,11 +273,11 @@ const textNodes = [
     options: [
       {
         text: 'you gonna set fire to that third bar huh',
-        nextText: 27
+        nextText: 26
       },
       {
         text: 'berries and CREAM',
-        nextText: 28
+        nextText: 27
       }
     ]
   },
@@ -298,13 +298,13 @@ const textNodes = [
       {
         text: 'With a puffed chest you call out "who goes there?"',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 29
+        nextText: 28
       },
       {
         text: 'You scamper back up, dropping Cornelius along the way to brave the bridge.',
         requiredState: (currentState) => currentState.chipmunk,
         setState: { chipmunk: false },
-        nextText: 30
+        nextText: 29
       }
     ]
   },
@@ -314,7 +314,7 @@ const textNodes = [
     options: [
       {
         text: 'Take it slow in the fog despite your hunger pangs.',
-        nextText: 31
+        nextText: 30
       },
       {
         text: 'Bite your thumb at the rickety bridge and cross as quickly as possible',
@@ -332,11 +332,11 @@ const textNodes = [
       },
       {
         text: 'Call out "Hello, I am friend not foe"',
-        nextText: 33
+        nextText: 32
       },
       {
         text: 'Quietly walk through a door left ajar to an unknown room',
-        nextText: 34
+        nextText: 33
       }
 
     ]
@@ -357,7 +357,7 @@ const textNodes = [
     options: [
       {
         text: 'Knock for a third time',
-        nextText: 35
+        nextText: 34
       },
       {
         text: 'Check if the door is unlocked',
@@ -375,11 +375,11 @@ const textNodes = [
     options: [
       {
         text: 'Slowly and quietly open the door',
-        nextText: 36
+        nextText: 35
       },
       {
         text: 'Say "Hello? Is anyone home?',
-        nextText: 37
+        nextText: 36
       },
       {
         text: 'Leave',
