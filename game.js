@@ -310,12 +310,16 @@ const textNodes = [
       },
       { 
         id: 17,
-        text: 'bridge',
+        text: 'After a quick scan of what you can see that the bridge is wooden and very old.',
         options: [
             {
-                text: '',
-                nextText: 1
-            }
+                text: 'Take it slow in the fog despite your hunger pangs.',
+                nextText: 31
+          },
+          {
+            text: 'Bite your thumb at the rickety bridge and cross as quickly as possible',
+            nextText: 32
+        }
         ]
       },
       { 
