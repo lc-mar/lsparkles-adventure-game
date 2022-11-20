@@ -324,12 +324,21 @@ const textNodes = [
       },
       { 
         id: 18,
-        text: '',
+        text: 'You find yourself in a kitchen with a dining room table set for dinner and something lightly simmering on the stove. The hair on your arms starts to raise as you get the sense that you are not alone.',
         options: [
             {
-                text: '',
-                nextText: 1
-            }
+                text: 'Walk out the back door and hastily walk down the mysterious path',
+                nextText: 9
+          },
+          {
+            text: '',
+            nextText: 33
+          },
+          {
+            text: '',
+            nextText: 34
+      }
+          
         ]
       },
       { 
