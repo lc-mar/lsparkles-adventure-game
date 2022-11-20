@@ -201,15 +201,15 @@ const textNodes = [
         options: [
           {
             text: 'Explore the mysterious path',
-            nextText: 18
+            nextText: 9
           },
           {
             text: 'Enter in to the house through the back door.',
-            nextText: 19
+            nextText: 18
           },
           {
             text: 'Leave',
-            nextText: 20
+            nextText: 19
           }
         ]
       },
@@ -219,11 +219,11 @@ const textNodes = [
         options: [
           {
             text: 'Knock again',
-            nextText: 21
+            nextText: 20
           },
           {
             text: 'Check if the door is unlocked',
-            nextText: 22
+            nextText: 21
           },
           {
             text: 'Explore around back',
@@ -231,7 +231,7 @@ const textNodes = [
           },
           {
             text: 'Leave',
-            nextText: 20
+            nextText: 22
           }
         ]
       },
