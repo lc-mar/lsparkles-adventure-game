@@ -331,11 +331,11 @@ const textNodes = [
                 nextText: 9
           },
           {
-            text: 'call out',
+            text: 'Call out "Hello, I am friend not foe"',
             nextText: 33
           },
           {
-            text: 'sneak into the next room',
+            text: 'Quietly walk through a door left ajar to an unknown room',
             nextText: 34
       }
           
@@ -343,10 +343,10 @@ const textNodes = [
       },
       { 
         id: 19,
-        text: '',
+        text: 'You turn around and are met face to face with a faceless shadow figure. The place where a mouth should be opens wide and as you see the blood-dripping teeth, your vision blacks out.',
         options: [
             {
-                text: '',
+                text: 'Restart',
                 nextText: 1
             }
         ]
