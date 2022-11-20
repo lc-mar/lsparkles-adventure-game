@@ -1,0 +1,60 @@
+/* colors:  
+#F3825F
+#563761
+#A7425C
+#FFE26F
+*/
+
+body {
+  background-color: #563761;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "raleway";
+}
+
+.game-title {
+  padding: 5% 10%;
+  text-align: center;
+  color: #f3825f;
+  font-size: 200%;
+}
+
+
+.container {
+  margin: auto;
+  max-width: 80%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  text-align: center;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: flex;
+  gap: 10px;
+  margin-top: 20px;
+  font-family: raleway;
+}
+
+.btn {
+  font-family: raleway;
+  background-color: #a7425c;
+  border: 1px solid #563761;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}

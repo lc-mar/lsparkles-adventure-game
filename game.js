@@ -5,7 +5,7 @@ let state = {}
 
 function startGame() {
   state = {}
-  showTextNode(1)
+  showTextNode(0)
 }
 
 function showTextNode(textNodeIndex) {
@@ -41,6 +41,16 @@ function selectOption(option) {
 }
 
 const textNodes = [
+  {
+    id: 0,
+    text: 'Welcome to The Woods. Only the brave dare enter and only one has ever made it out alive. Do you dare enter?',
+    options: [
+        {
+            text: 'Start',
+            nextText: 1
+        },
+    ]
+},
     {
         id: 1,
         text: 'You wake up in an unfamiliar forest surrounded by tall trees. As you are gathering your surroundings, you hear a loud snapping of a twig.',
