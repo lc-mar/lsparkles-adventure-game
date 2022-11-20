@@ -331,11 +331,11 @@ const textNodes = [
                 nextText: 9
           },
           {
-            text: '',
+            text: 'call out',
             nextText: 33
           },
           {
-            text: '',
+            text: 'sneak into the next room',
             nextText: 34
       }
           
