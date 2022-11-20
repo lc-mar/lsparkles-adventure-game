@@ -189,7 +189,7 @@ const textNodes = [
             nextText: 16
           },
           {
-            text: 'hero journey means we cross that bridge boy',
+            text: 'I am the hero of this journey and I choose to cross this bridge',
             requiredState: (currentState) => currentState.chipmunk,
             nextText: 17
           }
@@ -293,12 +293,19 @@ const textNodes = [
       },
       { 
         id: 16,
-        text: 'under bridge',
+        text: 'You walk around the side of the bridge and as you start to enter the shadowy area, you see a small stout figure.',
         options: [
             {
-                text: '',
-                nextText: 1
-            }
+            text: 'With a puffed chest you call out "who goes there?"',
+            requiredState: (currentState) => currentState.chipmunk,
+                nextText: 29
+          },
+          {
+            text: 'You scamper back up, dropping Cornelius along the way to brave the bridge.',
+            requiredState: (currentState) => currentState.chipmunk,
+            setState: {chipmunk: false},
+            nextText: 30
+        }
         ]
       },
       { 
