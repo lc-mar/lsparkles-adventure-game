@@ -272,11 +272,11 @@ const textNodes = [
     text: 'You realize you could easily build a fire with surrounding brush if you could locate an animal nearby... or a bush with berries',
     options: [
       {
-        text: 'you gonna set fire to that third bar huh',
+        text: 'You are confident in your fire building abilities and decide to scout the area for a potential tasty snack.',
         nextText: 25
       },
       {
-        text: 'berries and CREAM',
+        text: 'I am a little lad who loves berries and cream!',
         nextText: 26
       }
     ]
@@ -439,11 +439,15 @@ const textNodes = [
   },
   {
     id: 25,
-    text: '',
+    text: 'You see a fox not far off and no that you would be able to roast enough meat from it to feed you for days.',
     options: [
       {
-        text: '',
+        text: 'Try your hand at trapping it',
         nextText: 41
+      },
+      {
+        text: 'Look at Cornelius Pudge... Look at the fox... Look at pudge.....',
+        nextText: 42
       }
     ]
   },
