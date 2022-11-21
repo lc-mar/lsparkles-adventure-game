@@ -253,7 +253,7 @@ const textNodes = [
       },
       {
         text: 'Leave room via the closest door',
-        nextText: 25
+        nextText: 33
       },
     ]
   },
@@ -273,11 +273,11 @@ const textNodes = [
     options: [
       {
         text: 'you gonna set fire to that third bar huh',
-        nextText: 26
+        nextText: 25
       },
       {
         text: 'berries and CREAM',
-        nextText: 27
+        nextText: 26
       }
     ]
   },
@@ -298,13 +298,13 @@ const textNodes = [
       {
         text: 'With a puffed chest you call out "who goes there?"',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 28
+        nextText: 27
       },
       {
         text: 'You scamper back up, dropping Cornelius along the way to brave the bridge.',
         requiredState: (currentState) => currentState.chipmunk,
         setState: { chipmunk: false },
-        nextText: 29
+        nextText: 28
       }
     ]
   },
@@ -314,11 +314,11 @@ const textNodes = [
     options: [
       {
         text: 'Take it slow in the fog despite your hunger pangs.',
-        nextText: 30
+        nextText: 29
       },
       {
         text: 'Bite your thumb at the rickety bridge and cross as quickly as possible',
-        nextText: 32
+        nextText: 30
       }
     ]
   },
@@ -332,11 +332,11 @@ const textNodes = [
       },
       {
         text: 'Call out "Hello, I am friend not foe"',
-        nextText: 32
+        nextText: 31
       },
       {
         text: 'Quietly walk through a door left ajar to an unknown room',
-        nextText: 33
+        nextText: 32
       }
 
     ]
@@ -357,7 +357,7 @@ const textNodes = [
     options: [
       {
         text: 'Knock for a third time',
-        nextText: 34
+        nextText: 33
       },
       {
         text: 'Check if the door is unlocked',
@@ -375,11 +375,11 @@ const textNodes = [
     options: [
       {
         text: 'Slowly and quietly open the door',
-        nextText: 35
+        nextText: 34
       },
       {
         text: 'Say "Hello? Is anyone home?',
-        nextText: 36
+        nextText: 35
       },
       {
         text: 'Leave',
@@ -393,15 +393,15 @@ const textNodes = [
     options: [
       {
         text: 'Open book and read first line',
-        nextText: 37
+        nextText: 36
       },
       {
         text: 'Open book and read last line',
-        nextText: 38
+        nextText: 37
       },
       {
         text: 'Put the book back',
-        nextText: 39
+        nextText: 38
       }
     ]
   },
@@ -425,15 +425,15 @@ const textNodes = [
     options: [
       {
         text: 'Open book and read first line',
-        nextText: 37
+        nextText: 36
       },
       {
         text: 'Open book and read last line',
-        nextText: 38
+        nextText: 37
       },
       {
         text: 'Put the book back',
-        nextText: 39
+        nextText: 38
       }
     ]
   },
@@ -443,7 +443,7 @@ const textNodes = [
     options: [
       {
         text: '',
-        nextText: 1
+        nextText: 41
       }
     ]
   },
