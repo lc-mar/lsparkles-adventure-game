@@ -22,8 +22,9 @@ p {
 .game-title {
   padding: 5% 10%;
   text-align: center;
-  color: #f3825f;
-  font-size: 200%;
+  font-family: ubuntu;
+  font-size: 300%;
+  font-weight: thin;
 }
 
 
@@ -45,6 +46,10 @@ p {
   font-family: raleway;
 }
 
+.title-link {
+  text-decoration: none;
+  color: #f3825f;
+}
 .btn {
   font-family: raleway;
   background-color: #a7425c;
