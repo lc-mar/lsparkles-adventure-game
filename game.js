@@ -253,7 +253,7 @@ const textNodes = [
       },
       {
         text: 'Leave room via the closest door',
-        nextText: 33
+        nextText: 32
       },
     ]
   },
