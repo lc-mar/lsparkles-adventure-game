@@ -244,15 +244,15 @@ const textNodes = [
         nextText: 22
       },
       {
-        text: 'Pick up the thickest book',
+        text: 'Pick up the oldest book',
         nextText: 23
       },
       {
-        text: 'Pick up the oldest book',
+        text: 'Pick up the thickest book',
         nextText: 24
       },
       {
-        text: 'Leave Room',
+        text: 'Leave room via the closest door',
         nextText: 25
       },
     ]
@@ -421,11 +421,19 @@ const textNodes = [
   },
   {
     id: 24,
-    text: 'The title reads:',
+    text: 'The title reads: Dracula',
     options: [
       {
-        text: '',
-        nextText: 1
+        text: 'Open book and read first line',
+        nextText: 37
+      },
+      {
+        text: 'Open book and read last line',
+        nextText: 38
+      },
+      {
+        text: 'Put the book back',
+        nextText: 39
       }
     ]
   },
