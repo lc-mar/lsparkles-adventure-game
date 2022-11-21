@@ -453,11 +453,19 @@ const textNodes = [
   },
   {
     id: 26,
-    text: '',
+    text: 'You do a quick circle of the surrounding area and notice three different types of berries. You know little of what is and is not posionous but using your minor knowledge know you have the following options:',
     options: [
       {
-        text: '',
-        nextText: 1
+        text: 'a round purple berry which you know will either improve your mental clarity or have you foaming from the mouth in minutes',
+        nextText: 43
+      },
+      {
+        text: 'a red hard berry that you know little of at all besides the taste is undesirable',
+        nextText: 44
+      },
+      {
+        text: 'a blue puffy berry that you believe to be safe despite the potential for a light stomachache',
+        nextText: 45
       }
     ]
   },
@@ -467,7 +475,7 @@ const textNodes = [
     options: [
       {
         text: '',
-        nextText: 1
+        nextText: 47
       }
     ]
   },
