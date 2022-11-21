@@ -50,6 +50,9 @@ p {
   text-decoration: none;
   color: #f3825f;
 }
+.title-link:hover {
+  color: #FFE26F;
+}
 .btn {
   font-family: raleway;
   background-color: #a7425c;
