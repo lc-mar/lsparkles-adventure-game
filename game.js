@@ -389,27 +389,39 @@ const textNodes = [
   },
   {
     id: 22,
-    text: '',
+    text: 'The title reads: "Frankenstein" by Mary Shelley',
     options: [
       {
-        text: '',
-        nextText: 1
+        text: 'Open book and read first line',
+        nextText: 37
+      },
+      {
+        text: 'Open book and read last line',
+        nextText: 38
+      },
+      {
+        text: 'Put the book back',
+        nextText: 39
       }
     ]
   },
   {
     id: 23,
-    text: '',
+    text: 'You cannot make out the title as the book is covered and dust and very worn and fragile.',
     options: [
       {
-        text: '',
-        nextText: 1
+        text: 'Put it back as not to damage it further',
+        nextText: 39
+      },
+      {
+        text: 'Open it to the title page',
+        nextText: 40
       }
     ]
   },
   {
     id: 24,
-    text: '',
+    text: 'The title reads:',
     options: [
       {
         text: '',
@@ -560,6 +572,16 @@ const textNodes = [
   {
     id: 39,
     text: '',
+    options: [
+      {
+        text: '',
+        nextText: 1
+      }
+    ]
+  },
+  {
+    id: 40,
+    text: 'old worn book.. if not spooky witchy have it read It says "The Holy Bible" and upon further inspection you realize it is a very early edition.',
     options: [
       {
         text: '',
