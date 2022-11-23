@@ -480,12 +480,17 @@ const textNodes = [
   },
   {
     id: 27,
-    text: '',
+    text: 'You see a strange smirk appear on their face as they say "and who dares ask such an insulting question?", no one enters beneath this bridge without knowing who I am. ',
     options: [
       {
-        text: '',
+        text: 'You realize your error and apologize profusely to the creature.',
         requiredState: (currentState) => currentState.chipmunk,
         nextText: 47
+      },
+      {
+        text: 'You say "Ha! You try to trick me goblin, I call you on your bluff!"',
+        requiredState: (currentState) => currentState.chipmunk,
+        nextText: 48
       }
     ]
   },
