@@ -273,10 +273,12 @@ const textNodes = [
     options: [
       {
         text: 'You are confident in your fire building abilities and decide to scout the area for a potential tasty snack.',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 25
       },
       {
         text: 'I am a little lad who loves berries and cream!',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 26
       }
     ]
@@ -314,10 +316,12 @@ const textNodes = [
     options: [
       {
         text: 'Take it slow in the fog despite your hunger pangs.',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 29
       },
       {
         text: 'Bite your thumb at the rickety bridge and cross as quickly as possible',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 30
       }
     ]
@@ -443,10 +447,12 @@ const textNodes = [
     options: [
       {
         text: 'Try your hand at trapping it',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 41
       },
       {
         text: 'Look at Cornelius Pudge... Look at the fox... Look at pudge.....',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 42
       }
     ]
@@ -457,14 +463,17 @@ const textNodes = [
     options: [
       {
         text: 'a round purple berry which you know will either improve your mental clarity or have you foaming from the mouth in minutes',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 43
       },
       {
         text: 'a red hard berry that you know little of at all besides the taste is undesirable',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 44
       },
       {
         text: 'a blue puffy berry that you believe to be safe despite the potential for a light stomachache',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 45
       }
     ]
@@ -475,6 +484,7 @@ const textNodes = [
     options: [
       {
         text: '',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 47
       }
     ]
@@ -485,6 +495,7 @@ const textNodes = [
     options: [
       {
         text: '',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 1
       }
     ]
@@ -495,6 +506,7 @@ const textNodes = [
     options: [
       {
         text: '',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 1
       }
     ]
@@ -505,6 +517,7 @@ const textNodes = [
     options: [
       {
         text: '',
+        requiredState: (currentState) => currentState.chipmunk,
         nextText: 1
       }
     ]
