@@ -10,6 +10,7 @@ This readme provides an overview and instructions for setting up and playing the
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
+- [Project Status](#project-status)
 
 ## Introduction
 
@@ -70,6 +71,18 @@ Contributions to the LS Adventure Game project are welcome! If you find any issu
 The LS Adventure Game code is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code for personal or commercial purposes.
 
 Please note that the game includes external dependencies such as Google Fonts and Font Awesome, which have their own respective licenses. Make sure to review and comply with their license terms when using them in your projects.
+
+## Project Status
+
+This LS Adventure Game is still in progress and under active development. New features, improvements, and bug fixes are being worked on. Stay tuned forupdates and future releases as we continue to enhance the game and provide a more immersive and engaging experience for players.
+
+Feel free to explore the existing features and functionalities of the game, and please keep in mind that there might be areas that are incomplete or subject to further refinement. We appreciate your understanding and patience during this ongoing development phase.
+
+If you encounter any issues, have ideas for new features, or would like to contribute to the project, please feel free to reach out or submit your feedback through GitHub issues or pull requests. Your contributions and feedback are highly valued and will help us shape the future of the LS Adventure Game.
+
+We're excited to share the progress of this project with you, and we hope you enjoy playing the game in its current state while looking forward to the upcoming updates and improvements.
+
+Thank you for your interest in the LS Adventure Game, and happy gaming!
 
 ---
 
