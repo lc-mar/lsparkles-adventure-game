@@ -1,2 +1,0 @@
-# lsparkles-adventure-game
- 
