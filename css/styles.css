@@ -97,3 +97,35 @@ p {
   margin: 20px 10px;
   color: #e7f6f2;
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 95%;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .btn-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8px;
+  }
+
+  .game-title {
+    font-size: 250%;
+    padding: 2% 5%;
+  }
+
+  .social-icons {
+    font-size: 24px;
+    margin: 10px 5px;
+  }
+
+  #footer {
+    padding: 5px;
+  }
+}
