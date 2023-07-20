@@ -90,7 +90,7 @@ const textNodes = [
     text: 'You instantly fall into a punji pit and are impaled by the stakes on impact. You die a slow, painful, miserable death.',
     options: [
       {
-        text: 'Restart',
+        text: 'you died the literal first available death. try again and dont suck so bad next time.',
         nextText: -1
       }
     ]
@@ -140,7 +140,7 @@ const textNodes = [
     text: 'While the chipmunk soars through the branches, a bear comes up from behind and mauls you to pieces, ensuring a very painful ending. Animal cruelty is NOT the answer kids.',
     options: [
       {
-        text: 'Restart',
+        text: 'if you picked this i get to kick you now. try again!',
         nextText: -1
       }
     ]
@@ -150,13 +150,13 @@ const textNodes = [
     text: 'You awake from your nap and find that you have been abandoned by Cornelius Pudge (The Deserter)',
     options: [
       {
-        text: 'Express your sorrow outwardly and feel the deeppain of losing your only friend, blow your nose on a nearby leaf.',
+        text: 'Express your sorrow outwardly and feel the deep pain of losing your only friend, blow your nose on a nearby leaf.',
         requiredState: (currentState) => currentState.chipmunk,
         setState: { chipmunk: false },
         nextText: 5
       },
       {
-        text: 'Cry? I am no bebe.',
+        text: 'Cry? I am no bb.',
         requiredState: (currentState) => currentState.chipmunk,
         setState: { chipmunk: false },
         nextText: 13
@@ -262,7 +262,7 @@ const textNodes = [
     text: 'Due to your refusal to feel your pain, you drown internally due to an abnormal amount of saltwater',
     options: [
       {
-        text: 'Restart',
+        text: 'try again and maybe dont be emotionally unavailable next time ok?',
         nextText: -1
       }
     ]
@@ -288,7 +288,7 @@ const textNodes = [
     text: 'You have starved to death. Corny Pudgepants feasts on your remains for several months until eventually perishing as well due to obesity and lack of mobility.',
     options: [
       {
-        text: 'Restart',
+        text: 'you suck so bad you killed yourself and your rodent, try again!',
         nextText: -1
       }
     ]
@@ -306,7 +306,7 @@ const textNodes = [
         text: 'You scamper back up, dropping Cornelius along the way to brave the bridge.',
         requiredState: (currentState) => currentState.chipmunk,
         setState: { chipmunk: false },
-        nextText: 28
+        nextText: 17
       }
     ]
   },
@@ -317,12 +317,12 @@ const textNodes = [
       {
         text: 'Take it slow in the fog despite your hunger pangs.',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 29
+        nextText: 28
       },
       {
         text: 'Bite your thumb at the rickety bridge and cross as quickly as possible',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 30
+        nextText: 29
       }
     ]
   },
@@ -336,11 +336,11 @@ const textNodes = [
       },
       {
         text: 'Call out "Hello, I am friend not foe"',
-        nextText: 31
+        nextText: 30
       },
       {
         text: 'Quietly walk through a door left ajar to an unknown room',
-        nextText: 32
+        nextText: 12
       }
 
     ]
@@ -350,7 +350,7 @@ const textNodes = [
     text: 'You turn around and are met face to face with a faceless shadow figure. The place where a mouth should be opens wide and as you see the blood-dripping teeth, your vision blacks out.',
     options: [
       {
-        text: 'Restart',
+        text: 'you dead dead, try again!',
         nextText: -1
       }
     ]
@@ -361,7 +361,7 @@ const textNodes = [
     options: [
       {
         text: 'Knock for a third time',
-        nextText: 33
+        nextText: 31
       },
       {
         text: 'Check if the door is unlocked',
@@ -379,11 +379,11 @@ const textNodes = [
     options: [
       {
         text: 'Slowly and quietly open the door',
-        nextText: 34
+        nextText: 32
       },
       {
         text: 'Say "Hello? Is anyone home?',
-        nextText: 35
+        nextText: 33
       },
       {
         text: 'Leave',
@@ -397,15 +397,15 @@ const textNodes = [
     options: [
       {
         text: 'Open book and read first line',
-        nextText: 36
+        nextText: 34
       },
       {
         text: 'Open book and read last line',
-        nextText: 37
+        nextText: 35
       },
       {
         text: 'Put the book back',
-        nextText: 38
+        nextText: 36
       }
     ]
   },
@@ -415,11 +415,11 @@ const textNodes = [
     options: [
       {
         text: 'Put it back as not to damage it further',
-        nextText: 39
+        nextText: 36
       },
       {
         text: 'Open it to the title page',
-        nextText: 40
+        nextText: 37
       }
     ]
   },
@@ -429,15 +429,15 @@ const textNodes = [
     options: [
       {
         text: 'Open book and read first line',
-        nextText: 36
+        nextText: 38
       },
       {
         text: 'Open book and read last line',
-        nextText: 37
+        nextText: 39
       },
       {
         text: 'Put the book back',
-        nextText: 38
+        nextText: 40
       }
     ]
   },
@@ -459,7 +459,7 @@ const textNodes = [
   },
   {
     id: 26,
-    text: 'You do a quick circle of the surrounding area and notice three different types of berries. You know little of what is and is not posionous but using your minor knowledge know you have the following options:',
+    text: 'You do a quick circle of the surrounding area and notice three different types of berries. You know little of what is and is not poisonous but using your minor knowledge know you have the following options:',
     options: [
       {
         text: 'a round purple berry which you know will either improve your mental clarity or have you foaming from the mouth in minutes',
@@ -485,48 +485,54 @@ const textNodes = [
       {
         text: 'You realize your error and apologize profusely to the creature.',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 47
+        nextText: 46
       },
       {
         text: 'You say "Ha! You try to trick me goblin, I call you on your bluff!"',
         requiredState: (currentState) => currentState.chipmunk,
-        nextText: 48
+        nextText: 47
       }
     ]
   },
   {
     id: 28,
-    text: '',
+    text: 'It takes you two hours to make it halfway across the bridge and with shaking legs, you collapse to the ground, a future meal for the beast below.',
     options: [
       {
-        text: '',
-        requiredState: (currentState) => currentState.chipmunk,
-        nextText: 1
+        text: 'Turtles can\'t actually outrun rabbits',
+        nextText: -1
       }
     ]
   },
+  //  'Bite your thumb at the rickety bridge and cross as quickly as possible'
   {
     id: 29,
-    text: '',
+    text: 'Because of your swift movement, you cross the bridge in just under and hour and as you reach the end, the fog starts to lift above the buildings and you can see two main paths to continue on',
     options: [
       {
+        text: 'to the left is a bricked path surrounded by small houses and cottages ',
+        nextText: 48
+      },
+      {
         text: '',
-        requiredState: (currentState) => currentState.chipmunk,
-        nextText: 1
+        nextText: 49
       }
     ]
   },
   {
+    // 'You find yourself in a kitchen with a dining room table set for dinner and something lightly simmering on the stove. The hair on your arms starts to raise as you get the sense that you are not alone.'
+    // - 'Call out "Hello, I am friend not foe"'
     id: 30,
     text: '',
     options: [
       {
         text: '',
-        requiredState: (currentState) => currentState.chipmunk,
-        nextText: 1
+        nextText: 51
       }
     ]
   },
+   // 'You find yourself in a kitchen with a dining room table set for dinner and something lightly simmering on the stove. The hair on your arms starts to raise as you get the sense that you are not alone.'
+  // 'Quietly walk through a door left ajar to an unknown room'
   {
     id: 31,
     text: '',
@@ -537,6 +543,7 @@ const textNodes = [
       }
     ]
   },
+ 
   {
     id: 32,
     text: '',
@@ -547,6 +554,7 @@ const textNodes = [
       }
     ]
   },
+
   {
     id: 33,
     text: '',
@@ -557,9 +565,10 @@ const textNodes = [
       }
     ]
   },
+
   {
     id: 34,
-    text: '',
+    text: '"You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings".',
     options: [
       {
         text: '',
@@ -567,9 +576,10 @@ const textNodes = [
       }
     ]
   },
+
   {
     id: 35,
-    text: '',
+    text: '"He was soon borne away by the waves and lost in darkness and distance."',
     options: [
       {
         text: '',
@@ -577,6 +587,8 @@ const textNodes = [
       }
     ]
   },
+
+
   {
     id: 36,
     text: '',
@@ -599,7 +611,7 @@ const textNodes = [
   },
   {
     id: 38,
-    text: '',
+    text: '"3 May. Bistritz. Left Munich at 8.35pm, on 1 May, arriving at Vienna early next morning; should have arrived at 6.46pm, but train was an hour late."',
     options: [
       {
         text: '',
@@ -609,7 +621,7 @@ const textNodes = [
   },
   {
     id: 39,
-    text: '',
+    text: '"Already he knows her sweetness and loving care; later on he will understand how some men so loved her, that they did dare much for her sake"',
     options: [
       {
         text: '',
